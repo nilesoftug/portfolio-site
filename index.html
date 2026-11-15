@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nilesoft UG — Software, AI &amp; Training from Uganda</title>
+  <meta name="description" content="Nilesoft UG builds software for Uganda and East Africa, runs Kadhi (a music and video streaming platform), and offers computer training, AI training, data labeling, model training and web development." />
+  <meta name="theme-color" content="#0a1514" />
+  <link rel="canonical" href="https://nilesoftug.com/" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nilesoft UG — Software, AI & Training from Uganda" />
+  <meta property="og:description" content="Software built for Uganda and East Africa. Home of Kadhi, plus training, data labeling, model training and development services." />
+  <meta property="og:url" content="https://nilesoftug.com/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Nilesoft UG",
+    "url": "https://nilesoftug.com",
+    "logo": "https://nilesoftug.com/assets/favicon.svg",
+    "address": { "@type": "PostalAddress", "addressLocality": "Gulu", "addressCountry": "UG" },
+    "makesOffer": [
+      "Software and web development",
+      "Computer training",
+      "AI knowledge training",
+      "Machine learning data labeling",
+      "Machine learning model training"
+    ]
+  }
+  </script>
+  <script>
+    // Apply the saved theme before first paint to avoid a flash.
+    try { var t = localStorage.getItem('nsug-theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="wrap bar">
+      <a class="brand" href="#top" aria-label="Nilesoft UG home">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="16" fill="currentColor" opacity=".12"/>
+          <path d="M10 40c7-10 12-10 18 0s11 10 18 0 8-6 8-6" fill="none" stroke="var(--accent)" stroke-width="5" stroke-linecap="round"/>
+          <path d="M10 25c7-10 12-10 18 0s11 10 18 0 8-6 8-6" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-text">nilesoft<em>ug</em></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Primary">
+        <a href="#products">Products</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="bar-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch colour theme">
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <a class="btn btn-small" href="https://kadhi.nilesoftug.com" target="_blank" rel="noopener">Open Kadhi</a>
+        <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Gulu, Uganda · Serving East Africa</p>
+          <h1 class="reveal">Technology made <span class="hl">here</span>, for the way we actually live and work.</h1>
+          <p class="lead reveal">
+            Nilesoft UG builds software for Uganda and East Africa, trains people in computing and AI,
+            and prepares the data that teaches machines. Our first live product is <strong>Kadhi</strong>, a home for East African music and video.
+          </p>
+          <div class="cta-row reveal">
+            <a class="btn" href="https://kadhi.nilesoftug.com" target="_blank" rel="noopener">
+              Listen on Kadhi
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#services">What we do</a>
+          </div>
+          <ul class="facts reveal" aria-label="At a glance">
+            <li><strong>1</strong> product live</li>
+            <li><strong>5</strong> services</li>
+            <li><strong>Web + Android</strong> apps</li>
+          </ul>
+        </div>
+
+        <!-- Illustration of the Kadhi player (pure CSS) -->
+        <div class="hero-art reveal" aria-hidden="true">
+          <div class="glow"></div>
+          <div class="phone">
+            <div class="phone-notch"></div>
+            <div class="screen">
+              <div class="scr-top"><span>Now playing</span><i></i></div>
+              <div class="cover"><div class="cover-wave"></div></div>
+              <div class="scr-title"><b>Your next favourite song</b><span>Artist name</span></div>
+              <div class="scr-bar"><div class="scr-fill"></div></div>
+              <div class="scr-time"><span>1:12</span><span>3:48</span></div>
+              <div class="scr-ctrls">
+                <svg viewBox="0 0 24 24"><path d="M16 3h5v5M4 20 21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M19 20 9 12l10-8zM5 19V5"/></svg>
+                <span class="play"><svg viewBox="0 0 24 24"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></span>
+                <svg viewBox="0 0 24 24"><path d="m5 4 10 8-10 8zM19 5v14"/></svg>
+                <svg viewBox="0 0 24 24"><path d="m17 2 4 4-4 4M3 11V9a3 3 0 0 1 3-3h15M7 22l-4-4 4-4M21 13v2a3 3 0 0 1-3 3H3"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="chip chip-a"><svg viewBox="0 0 24 24"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 20h16"/></svg>Offline downloads</div>
+          <div class="chip chip-b"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m10 9 5 3-5 3z"/></svg>Audio &amp; video</div>
+        </div>
+      </div>
+      <svg class="hero-wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 60c120-40 240-40 360 0s240 40 360 0 240-40 360 0 240 40 360 0v60H0z"/>
+      </svg>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="section" id="products">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="eyebrow">What we have</p>
+          <h2>Our product</h2>
+        </header>
+
+        <article class="product reveal">
+          <div class="product-main">
+            <div class="product-tag">Live now</div>
+            <h3>Kadhi</h3>
+            <p class="product-sub">A streaming platform for music, video, speeches and drama — made for East African creators and listeners.</p>
+            <p>
+              Artists and creators publish their work; listeners play it on the web or on their phones.
+              Kadhi is built for real-world connections: it retries on weak networks, lets you download for offline listening,
+              and keeps playing with your screen off.
+            </p>
+            <div class="cta-row">
+              <a class="btn" href="https://kadhi.nilesoftug.com" target="_blank" rel="noopener">
+                Visit kadhi.nilesoftug.com
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <ul class="feature-grid">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l12-2v13M9 18a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm12-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/></svg>
+              <h4>Music, speeches &amp; drama</h4>
+              <p>Audio and video content in one place, with playlists and a queue you control.</p>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m10 9 5 3-5 3z"/></svg>
+              <h4>Switch audio ⇄ video</h4>
+              <p>Watch when you can, listen when you can't — the song carries on from the same second.</p>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 20h16"/></svg>
+              <h4>Offline listening</h4>
+              <p>Download tracks to your phone and play them with no data. Your own files play too.</p>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1 7.8 7.8 7.8-7.8 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+              <h4>Reactions &amp; comments</h4>
+              <p>Listeners respond to what they hear, and artists see it.</p>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="3"/><path d="M11 18h2"/></svg>
+              <h4>Web &amp; Android</h4>
+              <p>Use it in a browser or install the Android app. Notification and lock-screen controls included.</p>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+              <h4>Made for our region</h4>
+              <p>Prices in Ugandan shillings and a multilingual interface.</p>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section-alt" id="services">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="eyebrow">What we do</p>
+          <h2>Services for people and organisations</h2>
+          <p class="section-lead">From building your software to teaching your team and preparing the data behind AI.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></div>
+            <h3>Software &amp; web development</h3>
+            <p>Websites, web applications, Android apps and the back-end systems behind them — designed for slow networks and small screens as much as for fast ones.</p>
+            <ul>
+              <li>Business and organisation websites</li>
+              <li>Web apps and dashboards</li>
+              <li>Android apps</li>
+              <li>APIs and databases</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></div>
+            <h3>Computer training</h3>
+            <p>Practical, hands-on lessons for beginners and working people — so using a computer becomes comfortable and useful.</p>
+            <ul>
+              <li>Computer basics and typing</li>
+              <li>Office tools and documents</li>
+              <li>Internet and email, staying safe online</li>
+              <li>For individuals, schools and businesses</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a6 6 0 0 0-3.5 10.9V17h7v-3.1A6 6 0 0 0 12 3zM9.5 21h5"/></svg></div>
+            <h3>AI knowledge training</h3>
+            <p>Plain-language training on what AI is, what it can and can't do, and how to use it responsibly in everyday work.</p>
+            <ul>
+              <li>AI literacy for staff and students</li>
+              <li>Using AI tools productively</li>
+              <li>Responsible and safe use</li>
+              <li>Workshops tailored to your sector</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM17 14v6M14 17h6"/></svg></div>
+            <h3>Machine learning data labeling</h3>
+            <p>Careful human annotation that machine-learning teams can trust, including work that needs local-language and local-context understanding.</p>
+            <ul>
+              <li>Image and video annotation</li>
+              <li>Text and audio labeling</li>
+              <li>Quality review and consistency checks</li>
+              <li>Local languages and contexts</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/><path d="M7 6l3.5 5M7 18l3.5-5M14 12h3"/></svg></div>
+            <h3>Model training</h3>
+            <p>Training, fine-tuning and evaluating machine-learning models on well-prepared data, from dataset to a working result.</p>
+            <ul>
+              <li>Dataset preparation</li>
+              <li>Training and fine-tuning</li>
+              <li>Testing and evaluation</li>
+              <li>Models suited to regional data</li>
+            </ul>
+          </article>
+
+          <article class="card card-cta reveal">
+            <h3>Have a project in mind?</h3>
+            <p>Tell us what you need and we'll tell you honestly how we can help.</p>
+            <a class="btn" href="#contact">Get in touch
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="wrap about-grid">
+        <div class="reveal">
+          <p class="eyebrow">Who we are</p>
+          <h2>A Ugandan company building for East Africa</h2>
+          <p>
+            Nilesoft UG is a technology company based in Uganda. We build software, teach digital and AI skills,
+            and do the data work that machine learning depends on.
+          </p>
+          <p>
+            Much of the software people use wasn't designed with our reality in mind: patchy connections, limited data,
+            phones with little storage, many languages. We start from those conditions, and our products and training reflect them.
+          </p>
+        </div>
+
+        <ul class="values">
+          <li class="reveal">
+            <span class="num">01</span>
+            <div><h4>Built for real conditions</h4><p>Light apps, offline options and graceful behaviour on weak networks.</p></div>
+          </li>
+          <li class="reveal">
+            <span class="num">02</span>
+            <div><h4>Local first</h4><p>Local content, local languages and prices in shillings, designed with the region in mind.</p></div>
+          </li>
+          <li class="reveal">
+            <span class="num">03</span>
+            <div><h4>Skills that last</h4><p>Training should leave people able to do something new on their own.</p></div>
+          </li>
+          <li class="reveal">
+            <span class="num">04</span>
+            <div><h4>Shipped, not promised</h4><p>We show working software, like Kadhi, that people can use today.</p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- HOW WE WORK -->
+    <section class="section section-alt">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="eyebrow">How we work</p>
+          <h2>Simple, clear, hands-on</h2>
+        </header>
+        <ol class="steps">
+          <li class="reveal"><span>1</span><h4>Listen</h4><p>We start with your goal, your users and your constraints.</p></li>
+          <li class="reveal"><span>2</span><h4>Plan</h4><p>A clear scope, timeline and price before work begins.</p></li>
+          <li class="reveal"><span>3</span><h4>Build or teach</h4><p>We develop, label, train or run the sessions, keeping you updated as we go.</p></li>
+          <li class="reveal"><span>4</span><h4>Hand over</h4><p>You get working results, documentation and support so you can carry on.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="wrap contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's talk</h2>
+          <p>Software, training, data labeling or model training — send us a few lines and we'll reply.</p>
+
+          <ul class="contact-list">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>
+              <span>Gulu, Uganda</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <a id="emailLink" href="mailto:hello@nilesoftug.com">hello@nilesoftug.com</a>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+              <a href="https://kadhi.nilesoftug.com" target="_blank" rel="noopener">kadhi.nilesoftug.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="field">
+            <label for="topic">I'm interested in</label>
+            <select id="topic" name="topic">
+              <option>Software or web development</option>
+              <option>Computer training</option>
+              <option>AI knowledge training</option>
+              <option>Machine learning data labeling</option>
+              <option>Model training</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">How can we help?</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button class="btn" type="submit">Send message</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite">This opens your email app with the message ready to send.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <div class="foot-brand">
+        <span class="brand-text">nilesoft<em>ug</em></span>
+        <p>Software, AI and training from Uganda.</p>
+      </div>
+      <nav class="foot-nav" aria-label="Footer">
+        <a href="#products">Products</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="https://kadhi.nilesoftug.com" target="_blank" rel="noopener">Kadhi</a>
+        <a href="https://kadhi.nilesoftug.com/privacy" target="_blank" rel="noopener">Privacy</a>
+      </nav>
+      <p class="copy">© <span id="year">2026</span> Nilesoft UG. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

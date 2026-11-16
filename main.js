@@ -66,7 +66,7 @@
   /* ---------- contact form -> mailto ---------- */
   var form = document.getElementById('contactForm');
   var note = document.getElementById('formNote');
-  var TO = 'heveanlycitycommunity@gmail.com'; // change to your real address
+  var TO = 'heavenlycitycommunity@gmail.com'; // change to your real address
   if (form) {
     form.addEventListener('submit', function (e) {
       e.preventDefault();

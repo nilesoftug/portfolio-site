@@ -22,6 +22,7 @@ robots.txt, sitemap.xml
    - Keep the existing `kadhi` record pointing at your Kadhi web host.
 
 ## Things to edit
-- Contact email: `hello@nilesoftug.com` appears in `index.html` (contact list, JSON-LD) and `js/main.js` (`TO`). Replace it with a real mailbox.
-- The contact form opens the visitor's email app (`mailto:`). For a real form backend, use a service such as Formspree and point the form `action` to it.
-- Add an `assets/og.png` (1200x630) if you want a social share image.
+- Contact form posts to Web3Forms (access key is in the hidden `access_key` input in `index.html`; Web3Forms keys are designed to be public). Messages go to the email registered with that key.
+- WhatsApp number, phone and email appear in `index.html` (contact list, floating button, JSON-LD) and `WA` in `js/main.js`.
+- Add social profile URLs to the JSON-LD as `"sameAs": [...]` once they exist.
+- `assets/og-preview.png` is the 1200x630 share image used by WhatsApp, LinkedIn and X.

@@ -59,6 +59,23 @@
     items.forEach(function (el) { el.classList.add('in'); });
   }
 
+  /* ---------- app download ----------
+     Put the APK address here once. Easiest hosting: a GitHub Release, e.g.
+     https://github.com/USERNAME/REPO/releases/latest/download/kadhi.apk
+     While this is empty the buttons just scroll to the Get the app section. */
+  var APK_URL = '';
+  var apkBtn = document.getElementById('apkBtn');
+  var apkNote = document.getElementById('apkNote');
+  if (APK_URL) {
+    document.querySelectorAll('[data-download]').forEach(function (a) {
+      a.setAttribute('href', APK_URL);
+      a.setAttribute('download', 'kadhi.apk');
+    });
+  } else {
+    if (apkBtn) apkBtn.hidden = true;
+    if (apkNote) apkNote.textContent = 'The Android download link is coming soon. Until then, Kadhi works in your phone browser.';
+  }
+
   /* ---------- footer year ---------- */
   var y = document.getElementById('year');
   if (y) y.textContent = new Date().getFullYear();

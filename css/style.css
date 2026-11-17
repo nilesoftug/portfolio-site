@@ -322,6 +322,21 @@ h1 { font-size: clamp(2.5rem, 5.4vw, 4.3rem); font-weight: 650; margin-bottom: 2
 .shots figure:nth-child(2) { transform: translateY(-18px); }
 .shots figcaption { margin-top: 14px; font-weight: 700; font-size: .9rem; color: var(--ink-soft); }
 
+/* download */
+.download { display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; margin-top: 64px; padding: 44px; border-radius: 28px; scroll-margin-top: 90px;
+  background: linear-gradient(150deg, var(--teal), #0a3b37); color: #eef7f5; box-shadow: var(--shadow); }
+.download .eyebrow { color: #7fe3d6; }
+.download h3 { font-size: clamp(1.9rem, 3.4vw, 2.6rem); margin-bottom: 12px; }
+.download-copy > p { color: rgba(238,247,245,.86); max-width: 34em; }
+.download .btn-ghost { color: #eef7f5; border-color: rgba(238,247,245,.35); }
+.download .btn-ghost:hover { background: rgba(255,255,255,.1); }
+.download-note { margin: 18px 0 0; font-size: .88rem; color: rgba(238,247,245,.7); }
+.install-steps { display: grid; gap: 14px; align-content: center; }
+.install-steps li { display: flex; gap: 16px; padding: 16px 18px; border-radius: 16px; background: rgba(255,255,255,.08); }
+.install-steps span { flex: none; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: var(--accent); color: var(--accent-ink); font-weight: 800; font-size: .9rem; }
+.install-steps h4 { font-size: 1.05rem; margin-bottom: 2px; }
+.install-steps p { margin: 0; font-size: .92rem; color: rgba(238,247,245,.8); line-height: 1.5; }
+
 /* whatsapp */
 .btn-wa { margin-top: 22px; background: #1fa855; color: #fff; box-shadow: 0 10px 24px -12px #1fa855; }
 .btn-wa:hover { box-shadow: 0 16px 28px -12px #1fa855; }
@@ -335,6 +350,7 @@ h1 { font-size: clamp(2.5rem, 5.4vw, 4.3rem); font-weight: 650; margin-bottom: 2
 .hp { position: absolute; left: -9999px; opacity: 0; }
 .form-note.ok { color: #1f8a4c; font-weight: 700; }
 .form-note.err { color: #d6453d; font-weight: 700; }
+.btn[hidden] { display: none; }
 .btn:disabled { opacity: .65; cursor: progress; transform: none; }
 
 /* scroll reveal (only when JS is running) */
@@ -349,6 +365,7 @@ h1 { font-size: clamp(2.5rem, 5.4vw, 4.3rem); font-weight: 650; margin-bottom: 2
   .feature-grid { border-left: 0; border-top: 1px solid var(--line); }
 }
 @media (max-width: 860px) {
+  .download { grid-template-columns: 1fr; padding: 30px 22px; gap: 28px; margin-top: 48px; }
   .hero { padding: 44px 0 120px; }
   .hero-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 44px; }
   .hero-art { min-height: 480px; }

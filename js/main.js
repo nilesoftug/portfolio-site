@@ -63,7 +63,7 @@
      Put the APK address here once. Easiest hosting: a GitHub Release, e.g.
      https://github.com/USERNAME/REPO/releases/latest/download/kadhi.apk
      While this is empty the buttons just scroll to the Get the app section. */
-  var APK_URL = '';
+  var APK_URL = 'https://github.com/nilesoftug/kadhi/releases/download/Androd/kadhi_app.apk';
   var apkBtn = document.getElementById('apkBtn');
   var apkNote = document.getElementById('apkNote');
   if (APK_URL) {
